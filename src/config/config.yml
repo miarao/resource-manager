@@ -1,0 +1,9 @@
+version: 1.0.1
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 1406
+  adminConnectors:
+    - type: http
+      port: 1407

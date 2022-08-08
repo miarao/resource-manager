@@ -1,0 +1,66 @@
+e19:35:43.063 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.078 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.081 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+e19:35:43.083 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.084 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.085 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d19:35:43.086 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+e19:35:43.088 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+h19:35:43.088 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+e19:35:43.089 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.089 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.090 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+J19:35:43.090 [Test worker] INFO  api.resources.ScheduleResource - type: a
+T19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource group: 0
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0000', endTime='0300'}
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0317', endTime='0541'}
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='1430', endTime='1500'}
+T19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource group: 1
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0000', endTime='0100'}
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0230', endTime='0300'}
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0410', endTime='0500'}
+T19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource group: 2
+Ž19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0000', endTime='0200'}
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0300', endTime='0400'}
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0410', endTime='0500'}
+T19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource group: 3
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0300', endTime='0400'}
+J19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - type: b
+T19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource group: 0
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='1070', endTime='2180'}
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='2440', endTime='4242'}
+T19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource group: 1
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='2030', endTime='3380'}
+Ž19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='3400', endTime='4220'}
+T19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - resource group: 2
+Ž19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='3010', endTime='3030'}
+Ž19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='3460', endTime='4323'}
+e19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.095 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.096 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d19:35:43.096 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+e19:35:43.097 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.098 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.099 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+e19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+h19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+d19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+X19:35:43.100 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type a
+d19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type b
+X19:35:43.100 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type b
+	e19:35:43.101 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+	u19:35:43.101 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+	x19:35:43.102 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+
+e19:35:43.102 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+
+h19:35:43.103 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+e19:35:43.103 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.103 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.104 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d19:35:43.104 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+Š19:35:43.104 [Test worker] ERROR bl.cmds.ScheduleResourcesCmd - Type a but compatible resources groups are empty. Should bu investigated.
+e19:35:43.104 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u19:35:43.104 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+x19:35:43.105 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d19:35:43.105 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class schedule.ScheduleResourceCmdsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class schedule.ScheduleResourceCmdsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/schedule.html">schedule</a> &gt; ScheduleResourceCmdsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.097s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testInsertInvalidInputIntoScheduleWithCollisions_thenResponseSizeIs0</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidInputIntoScheduleWithCollisions_thenAllResourcesAreInserted</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidInputIntoScheduleWithCollisions_thenGroupA4ResourceGroupsGroupB3ResourceGroups</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidInputIntoScheduleWithCollisions_thenValidNoCollisionsSchedule</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithCollisionAndCheckAvailabilityWhenAvailable_thenShouldReturnFree</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithCollisionAndCheckAvailabilityWhenUnavailable_thenShouldReturnLocked</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithCollisionAndFindFirstCollision_thenShouldReturnCollision</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithCollisionAndGetAllCollisions_thenShouldReturnAllCollisions</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithoutCollisionAndFindFirstCollision_thenShouldReturnNoCollision</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithoutCollisionAndGetAllCollisions_thenShouldReturn</td>
+<td class="success">0.075s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInsertValidWithoutCollisionAndWithIllegalTimeAndFindFirstCollision_thenShouldReturnNoCollision</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:35:43.063 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.078 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.081 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.083 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.084 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.085 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.086 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+19:35:43.088 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.088 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+19:35:43.089 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.089 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.090 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.090 [Test worker] INFO  api.resources.ScheduleResource - type: a
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource group: 0
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0000', endTime='0300'}
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0317', endTime='0541'}
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='1430', endTime='1500'}
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource group: 1
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0000', endTime='0100'}
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0230', endTime='0300'}
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0410', endTime='0500'}
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource group: 2
+19:35:43.091 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0000', endTime='0200'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0300', endTime='0400'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0410', endTime='0500'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource group: 3
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='a', startTime='0300', endTime='0400'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - type: b
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource group: 0
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='1070', endTime='2180'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='2440', endTime='4242'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource group: 1
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='2030', endTime='3380'}
+19:35:43.092 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='3400', endTime='4220'}
+19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - resource group: 2
+19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='3010', endTime='3030'}
+19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - resource: BlSchedulableResource{type='b', startTime='3460', endTime='4323'}
+19:35:43.094 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.095 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.096 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.096 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+19:35:43.097 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.098 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.099 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+19:35:43.100 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type a
+19:35:43.100 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type b
+19:35:43.100 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type b
+19:35:43.101 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.101 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.102 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.102 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.103 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+19:35:43.103 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.103 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.104 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.104 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+19:35:43.104 [Test worker] ERROR bl.cmds.ScheduleResourcesCmd - Type a but compatible resources groups are empty. Should bu investigated.
+19:35:43.104 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+19:35:43.104 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+19:35:43.105 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+19:35:43.105 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Aug 8, 2022 7:35:43 PM</p>
+</div>
+</div>
+</body>
+</html>
