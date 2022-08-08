@@ -25,7 +25,7 @@ public class AllCollisionsCmd {
 
                 List<BlSchedulableResource> collidingResourcesList = new ArrayList<>();
 
-                //check only consecutive resources, until there are no collisions
+                //check only consecutive resources, until there are no collisions, lists are sorted
                 while (iterator < sortedResourcesStore.size()) {
                     BlSchedulableResource collidingCandidate = sortedResourcesStore.get(iterator);
 

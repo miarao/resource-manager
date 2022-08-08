@@ -74,8 +74,10 @@ public class ScheduleResource {
 
             List<BlSchedulableResource> cmdResponse = cmd.execute(schedulableResources, schedulesByResourcesTypesStore);
 
+            //init all sorted resources into store
             sortedResourcesStore = cmdResponse;
 
+            //init types store
             resourceTypesStore =
                     schedulableResources.stream().map(BlSchedulableResource::getType).collect(Collectors.toSet());
 
@@ -101,6 +103,8 @@ public class ScheduleResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/")
     public ApiIdentifiableSchedulableResponse getResources() {
+        LOGGER.info("Start getting all scheduled resources");
+
         ApiIdentifiableSchedulableResponse response = null;
 
         if (CollectionUtils.isNotEmpty(sortedResourcesStore)) {
@@ -111,6 +115,8 @@ public class ScheduleResource {
 
             response.setResources(apiResources);
         }
+
+        LOGGER.info("Finished getting all scheduled resources");
 
         return response;
     }
