@@ -24,7 +24,7 @@ public class ScheduleResourcesCmd {
     //region Public Methods
     public List<BlSchedulableResource> execute(List<BlSchedulableResource> resources, Map<String,
             List<CompatibleResourcesGroup>> schedulesByResourcesTypesStore) {
-        List<BlSchedulableResource> retVal = new ArrayList<>();
+        List<BlSchedulableResource> retVal;
 
         LOGGER.info("Start adding resources to scheduled resources store.");
         List<BlSchedulableResource> resourcesList = addToStore(resources, schedulesByResourcesTypesStore);
@@ -40,7 +40,9 @@ public class ScheduleResourcesCmd {
     //region Private Methods
     private List<BlSchedulableResource> addToStore(List<BlSchedulableResource> resources, Map<String,
             List<CompatibleResourcesGroup>> schedulesByResourcesTypesStore) {
-        List<BlSchedulableResource> retVal = new ArrayList<>();
+        List<BlSchedulableResource> retVal;
+
+        LOGGER.info("Adding resources to in-memory store");
 
         //copy to enable safe deletion, sort by start time for interval partitioning
         List<BlSchedulableResource> sortedResourceListCopy =
@@ -55,12 +57,15 @@ public class ScheduleResourcesCmd {
             List<CompatibleResourcesGroup> compatibleResourcesListByType =
                     buildCompatibleGroupsByType(sortedResourcesByType);
 
+            //put into store
             schedulesByResourcesTypesStore.put(type, compatibleResourcesListByType);
 
             sortedResourceListCopy =
                     sortedResourceListCopy.stream().filter(sr -> type.equals(sr.getType()) == false).
                             collect(Collectors.toList());
         }
+
+        LOGGER.info("Finished adding resources to in-memory store");
 
         retVal = resources.stream().sorted().collect(Collectors.toList());
 
