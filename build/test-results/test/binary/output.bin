@@ -1,65 +1,65 @@
-e22:47:09.785 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.822 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.823 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.828 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.829 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-e22:47:09.833 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.834 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.834 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.836 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.836 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-d22:47:09.838 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
-e22:47:09.843 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-h22:47:09.843 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
-h22:47:09.843 [Test worker] INFO  api.resources.ScheduleResource - Start getting all scheduled resources
-k22:47:09.843 [Test worker] INFO  api.resources.ScheduleResource - Finished getting all scheduled resources
-e22:47:09.844 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.845 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.845 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.846 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.847 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-h22:47:09.847 [Test worker] INFO  api.resources.ScheduleResource - Start getting all scheduled resources
-k22:47:09.849 [Test worker] INFO  api.resources.ScheduleResource - Finished getting all scheduled resources
-e22:47:09.849 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.850 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.850 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.851 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.853 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-d22:47:09.854 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
-e22:47:09.856 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.857 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.857 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.860 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.860 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-e22:47:09.862 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-h22:47:09.863 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
-d22:47:09.863 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
-X22:47:09.863 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type a
-d22:47:09.863 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type b
-X22:47:09.863 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type b
-	e22:47:09.865 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-	u22:47:09.865 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-	d22:47:09.866 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-	m22:47:09.866 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-	x22:47:09.867 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+e00:23:50.138 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.155 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.155 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.159 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.159 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+e00:23:50.162 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.163 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.163 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.165 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.165 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d00:23:50.166 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+e00:23:50.169 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+h00:23:50.169 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+h00:23:50.169 [Test worker] INFO  api.resources.ScheduleResource - Start getting all scheduled resources
+k00:23:50.169 [Test worker] INFO  api.resources.ScheduleResource - Finished getting all scheduled resources
+e00:23:50.170 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.170 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.171 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.172 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.176 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+h00:23:50.176 [Test worker] INFO  api.resources.ScheduleResource - Start getting all scheduled resources
+k00:23:50.179 [Test worker] INFO  api.resources.ScheduleResource - Finished getting all scheduled resources
+e00:23:50.179 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.180 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.180 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.181 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.181 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d00:23:50.182 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+e00:23:50.185 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.186 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.186 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.187 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.187 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+e00:23:50.189 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+h00:23:50.189 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+d00:23:50.189 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+X00:23:50.189 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type a
+d00:23:50.189 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type b
+X00:23:50.189 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - No schedules for type b
+	e00:23:50.190 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+	u00:23:50.190 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+	d00:23:50.190 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+	m00:23:50.193 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+	x00:23:50.193 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
 
-e22:47:09.867 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+e00:23:50.194 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
 
-h22:47:09.868 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
+h00:23:50.194 [Test worker] INFO  api.resources.ScheduleResource - Failed to handle resources scheduling
 
-h22:47:09.868 [Test worker] INFO  api.resources.ScheduleResource - Start getting all scheduled resources
+h00:23:50.195 [Test worker] INFO  api.resources.ScheduleResource - Start getting all scheduled resources
 
-k22:47:09.868 [Test worker] INFO  api.resources.ScheduleResource - Finished getting all scheduled resources
-e22:47:09.869 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.869 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.869 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.871 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.872 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-d22:47:09.872 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
-Š22:47:09.872 [Test worker] ERROR bl.cmds.ScheduleResourcesCmd - Type a but compatible resources groups are empty. Should bu investigated.
-e22:47:09.873 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
-u22:47:09.873 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
-d22:47:09.873 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
-m22:47:09.874 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
-x22:47:09.874 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
-d22:47:09.875 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+k00:23:50.195 [Test worker] INFO  api.resources.ScheduleResource - Finished getting all scheduled resources
+e00:23:50.196 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.196 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.196 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.197 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.197 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d00:23:50.197 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a
+Š00:23:50.197 [Test worker] ERROR bl.cmds.ScheduleResourcesCmd - Type a but compatible resources groups are empty. Should bu investigated.
+e00:23:50.197 [Test worker] INFO  api.resources.ScheduleResource - Start handling resource scheduling
+u00:23:50.201 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Start adding resources to scheduled resources store.
+d00:23:50.201 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Adding resources to in-memory store
+m00:23:50.202 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to in-memory store
+x00:23:50.203 [Test worker] INFO  bl.cmds.ScheduleResourcesCmd - Finished adding resources to scheduled resources store.
+d00:23:50.203 [Test worker] INFO  api.resources.ScheduleResource - Getting first collision on type a

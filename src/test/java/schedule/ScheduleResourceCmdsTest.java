@@ -41,71 +41,44 @@ public class ScheduleResourceCmdsTest {
         List<ApiSchedulableResource>      nonCollidingList = new ArrayList<>();
 
         //region ###################### Type A init ######################
-        ApiSchedulableResource schedulableResource1a = new ApiSchedulableResource();
-        schedulableResource1a.setType(TypeA);
-        schedulableResource1a.setStartTime("0000");
-        schedulableResource1a.setEndTime("0100");
+        ApiSchedulableResource schedulableResource1a = getApiSchedulableResource(TypeA, "0000", "0100");
 
         nonCollidingList.add(schedulableResource1a);
 
-        ApiSchedulableResource schedulableResource2a = new ApiSchedulableResource();
-        schedulableResource2a.setType(TypeA);
-        schedulableResource2a.setStartTime("1000");
-        schedulableResource2a.setEndTime("3594");
+        ApiSchedulableResource schedulableResource2a = getApiSchedulableResource(TypeA, "1000", "3594");
 
         nonCollidingList.add(schedulableResource2a);
 
-        ApiSchedulableResource schedulableResource3a = new ApiSchedulableResource();
-        schedulableResource3a.setType(TypeA);
-        schedulableResource3a.setStartTime("4000");
-        schedulableResource3a.setEndTime("4202");
+        ApiSchedulableResource schedulableResource3a = getApiSchedulableResource(TypeA, "4000", "4202");
 
         nonCollidingList.add(schedulableResource3a);
 
-        ApiSchedulableResource schedulableResource4a = new ApiSchedulableResource();
-        schedulableResource4a.setType(TypeA);
-        schedulableResource4a.setStartTime("4309");
-        schedulableResource4a.setEndTime("4995");
+        ApiSchedulableResource schedulableResource4a = getApiSchedulableResource(TypeA, "4309", "4995");
 
         nonCollidingList.add(schedulableResource4a);
 
-        ApiSchedulableResource schedulableResource5a = new ApiSchedulableResource();
-        schedulableResource5a.setType(TypeA);
-        schedulableResource5a.setStartTime("5036");
-        schedulableResource5a.setEndTime("5120");
+        ApiSchedulableResource schedulableResource5a = getApiSchedulableResource(TypeA, "5036", "5120");
 
         nonCollidingList.add(schedulableResource5a);
         //endregion
 
         //region ###################### Type B init ######################
-        ApiSchedulableResource schedulableResource1b = new ApiSchedulableResource();
-        schedulableResource1b.setType(TypeB);
-        schedulableResource1b.setStartTime("750001");
-        schedulableResource1b.setEndTime("771528");
+        ApiSchedulableResource schedulableResource1b = getApiSchedulableResource(TypeB, "750001", "771528");
 
         nonCollidingList.add(schedulableResource1b);
 
-        ApiSchedulableResource schedulableResource2b = new ApiSchedulableResource();
-        schedulableResource2b.setType(TypeB);
-        schedulableResource2b.setStartTime("15314");
-        schedulableResource2b.setEndTime("25111");
+        ApiSchedulableResource schedulableResource2b = getApiSchedulableResource(TypeB, "15314", "25111");
 
         nonCollidingList.add(schedulableResource2b);
 
-        ApiSchedulableResource schedulableResource3b = new ApiSchedulableResource();
-        schedulableResource3b.setType(TypeB);
-        schedulableResource3b.setStartTime("154377");
-        schedulableResource3b.setEndTime("330650");
+        ApiSchedulableResource schedulableResource3b = getApiSchedulableResource(TypeB, "154377", "330650");
 
         nonCollidingList.add(schedulableResource3b);
         //endregion
 
         //region Illegal Times
         if (injectIllegalTime) {
-            ApiSchedulableResource illegalTimeResource = new ApiSchedulableResource();
-            illegalTimeResource.setType(TypeB);
-            illegalTimeResource.setStartTime("330650");
-            illegalTimeResource.setEndTime("154377");
+            ApiSchedulableResource illegalTimeResource = getApiSchedulableResource(TypeB, "330650", "154377");
 
             nonCollidingList.add(illegalTimeResource);
         }
@@ -121,127 +94,76 @@ public class ScheduleResourceCmdsTest {
         List<ApiSchedulableResource>      collidingList = new ArrayList<>();
 
         //region ###################### Type A init ######################
-        ApiSchedulableResource schedulableResource1a = new ApiSchedulableResource();
-        schedulableResource1a.setType(TypeA);
-        schedulableResource1a.setStartTime("0000");
-        schedulableResource1a.setEndTime("0300");
+        ApiSchedulableResource schedulableResource1a = getApiSchedulableResource(TypeA, "0000", "0300");
 
         collidingList.add(schedulableResource1a);
 
-        ApiSchedulableResource schedulableResource2a = new ApiSchedulableResource();
-        schedulableResource2a.setType(TypeA);
-        schedulableResource2a.setStartTime("1430");
-        schedulableResource2a.setEndTime("1500");
+        ApiSchedulableResource schedulableResource2a = getApiSchedulableResource(TypeA, "1430", "1500");
 
         collidingList.add(schedulableResource2a);
 
-        ApiSchedulableResource schedulableResource3a = new ApiSchedulableResource();
-        schedulableResource3a.setType(TypeA);
-        schedulableResource3a.setStartTime("0230");
-        schedulableResource3a.setEndTime("0300");
+        ApiSchedulableResource schedulableResource3a = getApiSchedulableResource(TypeA, "0230", "0300");
 
         collidingList.add(schedulableResource3a);
 
-        ApiSchedulableResource schedulableResource4a = new ApiSchedulableResource();
-        schedulableResource4a.setType(TypeA);
-        schedulableResource4a.setStartTime("0000");
-        schedulableResource4a.setEndTime("0100");
+        ApiSchedulableResource schedulableResource4a = getApiSchedulableResource(TypeA, "0000", "0100");
 
         collidingList.add(schedulableResource4a);
 
-        ApiSchedulableResource schedulableResource5a = new ApiSchedulableResource();
-        schedulableResource5a.setType(TypeA);
-        schedulableResource5a.setStartTime("0300");
-        schedulableResource5a.setEndTime("0400");
+        ApiSchedulableResource schedulableResource5a = getApiSchedulableResource(TypeA, "0300", "0400");
 
         collidingList.add(schedulableResource5a);
 
-        ApiSchedulableResource schedulableResource6a = new ApiSchedulableResource();
-        schedulableResource6a.setType(TypeA);
-        schedulableResource6a.setStartTime("0300");
-        schedulableResource6a.setEndTime("0400");
+        ApiSchedulableResource schedulableResource6a = getApiSchedulableResource(TypeA, "0300", "0400");
 
         collidingList.add(schedulableResource6a);
 
-        ApiSchedulableResource schedulableResource7a = new ApiSchedulableResource();
-        schedulableResource7a.setType(TypeA);
-        schedulableResource7a.setStartTime("0000");
-        schedulableResource7a.setEndTime("0200");
+        ApiSchedulableResource schedulableResource7a = getApiSchedulableResource(TypeA, "0000", "0200");
 
         collidingList.add(schedulableResource7a);
 
-        ApiSchedulableResource schedulableResource8a = new ApiSchedulableResource();
-        schedulableResource8a.setType(TypeA);
-        schedulableResource8a.setStartTime("0410");
-        schedulableResource8a.setEndTime("0500");
+        ApiSchedulableResource schedulableResource8a = getApiSchedulableResource(TypeA, "0410", "0500");
 
         collidingList.add(schedulableResource8a);
 
-        ApiSchedulableResource schedulableResource9a = new ApiSchedulableResource();
-        schedulableResource9a.setType(TypeA);
-        schedulableResource9a.setStartTime("0125");
-        schedulableResource9a.setEndTime("0300");
+        ApiSchedulableResource schedulableResource9a = getApiSchedulableResource(TypeA, "0125", "0300");
 
         collidingList.add(schedulableResource8a);
 
-        ApiSchedulableResource schedulableResource10a = new ApiSchedulableResource();
-        schedulableResource10a.setType(TypeA);
-        schedulableResource10a.setStartTime("0317");
-        schedulableResource10a.setEndTime("0541");
+        ApiSchedulableResource schedulableResource10a = getApiSchedulableResource(TypeA, "0317", "0541");
 
         collidingList.add(schedulableResource10a);
         //endregion
 
         //region ###################### Type B init ######################
-        ApiSchedulableResource schedulableResource1b = new ApiSchedulableResource();
-        schedulableResource1b.setType(TypeB);
-        schedulableResource1b.setStartTime("1070");
-        schedulableResource1b.setEndTime("2180");
+        ApiSchedulableResource schedulableResource1b = getApiSchedulableResource(TypeB, "1070", "2180");
 
         collidingList.add(schedulableResource1b);
 
-        ApiSchedulableResource schedulableResource2b = new ApiSchedulableResource();
-        schedulableResource2b.setType(TypeB);
-        schedulableResource2b.setStartTime("3400");
-        schedulableResource2b.setEndTime("4220");
+        ApiSchedulableResource schedulableResource2b = getApiSchedulableResource(TypeB, "3400", "4220");
 
         collidingList.add(schedulableResource2b);
 
-        ApiSchedulableResource schedulableResource3b = new ApiSchedulableResource();
-        schedulableResource3b.setType(TypeB);
-        schedulableResource3b.setStartTime("2030");
-        schedulableResource3b.setEndTime("3380");
+        ApiSchedulableResource schedulableResource3b = getApiSchedulableResource(TypeB, "2030", "3380");
 
         collidingList.add(schedulableResource3b);
 
-        ApiSchedulableResource schedulableResource4b = new ApiSchedulableResource();
-        schedulableResource4b.setType(TypeB);
-        schedulableResource4b.setStartTime("3010");
-        schedulableResource4b.setEndTime("3030");
+        ApiSchedulableResource schedulableResource4b = getApiSchedulableResource(TypeB, "3010", "3030");
 
         collidingList.add(schedulableResource4b);
 
-        ApiSchedulableResource schedulableResource5b = new ApiSchedulableResource();
-        schedulableResource5b.setType(TypeB);
-        schedulableResource5b.setStartTime("3460");
-        schedulableResource5b.setEndTime("4323");
+        ApiSchedulableResource schedulableResource5b = getApiSchedulableResource(TypeB, "3460", "4323");
 
         collidingList.add(schedulableResource5b);
 
-        ApiSchedulableResource schedulableResource6b = new ApiSchedulableResource();
-        schedulableResource6b.setType(TypeB);
-        schedulableResource6b.setStartTime("2440");
-        schedulableResource6b.setEndTime("4242");
+        ApiSchedulableResource schedulableResource6b = getApiSchedulableResource(TypeB, "2440", "4242");
 
         collidingList.add(schedulableResource6b);
         //endregion
 
         //region Defect Resource
         if (injectDefection) {
-            ApiSchedulableResource defectSchedulableResource = new ApiSchedulableResource();
-            defectSchedulableResource.setType(TypeB);
-            defectSchedulableResource.setStartTime("2x40");
-            defectSchedulableResource.setEndTime("4242");
+            ApiSchedulableResource defectSchedulableResource = getApiSchedulableResource(TypeB, "2x40", "4242");
 
             collidingList.add(defectSchedulableResource);
         }
@@ -249,10 +171,7 @@ public class ScheduleResourceCmdsTest {
 
         //region Empty Type And IllegalTime
         if (injectEmptyTypeAndIllegalTime) {
-            ApiSchedulableResource emptyTypeIllegalTimeResource = new ApiSchedulableResource();
-            emptyTypeIllegalTimeResource.setType("");
-            emptyTypeIllegalTimeResource.setStartTime("3210");
-            emptyTypeIllegalTimeResource.setEndTime("0123");
+            ApiSchedulableResource emptyTypeIllegalTimeResource = getApiSchedulableResource("", "3210", "0123");
 
             collidingList.add(emptyTypeIllegalTimeResource);
         }
@@ -260,6 +179,16 @@ public class ScheduleResourceCmdsTest {
 
         bulkRequest.setResources(collidingList);
         scheduleResource.insertIntoSchedule(bulkRequest);
+    }
+
+    private ApiSchedulableResource getApiSchedulableResource(String resourceType, String startTime, String endTime) {
+        ApiSchedulableResource retVal = new ApiSchedulableResource();
+
+        retVal.setType(resourceType);
+        retVal.setStartTime(startTime);
+        retVal.setEndTime(endTime);
+
+        return retVal;
     }
 
     @Test
