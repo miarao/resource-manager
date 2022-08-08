@@ -23,10 +23,11 @@ by default the service will be exposed on `http://localhost:1406`.
 |---------------------------|--------------|
 | **HTTP Authorization Scheme** | Not Required |
 
-### Schedule
-============
+## Schedule
+--
 #### Create Schedule
-> Authorization [`auth`](##auth) 
+--
+> Authorization [`auth`](###auth) 
 
 > Query Parameters **None**
 -----
@@ -82,6 +83,7 @@ by default the service will be exposed on `http://localhost:1406`.
 ```
 
 #### Get Schedule
+--
 > Authorization [`auth`](##auth) 
 
 > Query Parameters **None**
@@ -154,6 +156,7 @@ by default the service will be exposed on `http://localhost:1406`.
 ```
 
 #### Get Resource Availability
+--
 > Authorization [`auth`](##auth) 
 
 > Query Parameters **None**
@@ -178,6 +181,7 @@ by default the service will be exposed on `http://localhost:1406`.
 ```
 
 #### Get All Collisions
+--
 > Authorization [`auth`](##auth) 
 
 > Query Parameters **None**

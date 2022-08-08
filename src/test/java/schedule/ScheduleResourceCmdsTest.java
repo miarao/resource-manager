@@ -266,9 +266,8 @@ public class ScheduleResourceCmdsTest {
     public void testInsertValidInputIntoScheduleWithCollisions_thenAllResourcesAreInserted() {
         warmUpSchedulesByResourcesTypesStoreWithCollisions(false, false);
 
-        ApiSchedulableResourceResponse response = scheduleResource.printAndGetStoredResource();
+        ApiIdentifiableSchedulableResponse response = scheduleResource.getResources();
 
-        Assert.assertEquals("Success", response.getResponseMessage());
         Assert.assertEquals(16, response.getResources().size());
     }
 
