@@ -1,12 +1,13 @@
 # Resource Scheduling
-The following "Resource Scheduling Library" is a library designed to provide a "plug-and-play" Java microservice with in-memory store to assist with resources scheduling. The underlying problem it solves is the "Interval Partitioning Problem", but provide extended functionality.
+The following "Resource Scheduling Library" is a library designed to provide a "plug-and-play" Java microservice with in-memory store to assist with resources scheduling. The underlying problem it solves is the "Interval Partitioning Problem", scheduling all requests with the minimal amount of resources, while providing extended functionality, mostly conecrns scheduling collisions.
 
 ## Install & Run
 - **Language**: 
->Java 8 `(Build #1.8.0_311)`
+>Java 8 (Build [#1.8.0_311](https://www.java.com/en/download/ie_manual.jsp))
 
 - **JVM Build**:
->Gradle 5.2.1
+>Gradle (Release [#5.2.1](https://docs.gradle.org/5.2.1/release-notes.html))
+
 
 - **Framework**:
 > dropwizard (dropwizard-core 0.8)
