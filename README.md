@@ -27,9 +27,9 @@ by default the service will be exposed on `http://localhost:1406`.
 | **HTTP Authorization Scheme** | Not Required |
 
 ## Schedule
---
+-----
 #### Create Schedule
---
+-----
 > Authorization [`auth`](###auth) 
 
 > Query Parameters **None**
