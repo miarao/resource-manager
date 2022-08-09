@@ -1,5 +1,7 @@
 # Resource Scheduling
-The following "Resource Scheduling Library" is a library designed to provide a "plug-and-play" Java microservice with in-memory store to assist with resources scheduling. The underlying problem it solves is the "Interval Partitioning Problem", scheduling all requests with the minimal amount of resources, while providing extended functionality, mostly conecrns scheduling collisions.
+The following "Resource Scheduling Library" is a library designed to provide a "plug-and-play" Java microservice with in-memory store to assist with resources scheduling.
+
+The underlying problem it solves is the "Interval Partitioning Problem", scheduling all requests with the minimal amount of resources, while providing extended functionality, mostly conecrns scheduling collisions.
 
 ## Install & Run
 - **Language**: 
